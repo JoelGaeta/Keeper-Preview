@@ -1,7 +1,7 @@
 {
   "name": "keeper-preview",
   "version": "0.1.0",
-  "homepage": "https://JoelGaeta.github.io/react-gh-pages",
+  "homepage": "https://JoelGaeta.github.io/keeper-preview",
   "private": true,
   "dependencies": {
     "@iconscout/react-unicons": "^2.0.2",
