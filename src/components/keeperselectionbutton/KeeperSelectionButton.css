@@ -1,0 +1,37 @@
+.benefitButtons: {
+    margin: 4;
+    justify-content: 'center';
+    align-items: 'center';
+    height: 50;
+    /* width: isBig ? '47%' : 100; */
+    padding: 10;
+    background-color: theme.color.keeperGrey;
+    border-radius: 30;
+  },
+  .benefitsButtonsPressed: {
+    margin: 4;
+    justify-content: 'center';
+    align-items: 'center';
+    background-color: buttonColor || theme.color.employerBackground;
+    height: 50;
+    width: isBig ? '47%' : 100;
+    padding: 10;
+    border-radius: 30;
+  },
+  .buttonText: {
+    font-size: isBig ? 20 : 18;
+  },
+  .smallButtonText: {
+    font-size: 18;
+  },
+  .bigButtons: {
+    margin: 4;
+    justify-Content: 'center';
+    align-items: 'center';
+    height: 50;
+    width: '47%';
+    border-radius: 30;
+  },
+  .bigButtonText: {
+    font-size: 20;
+  },

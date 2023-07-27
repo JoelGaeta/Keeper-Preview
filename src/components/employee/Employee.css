@@ -1,0 +1,188 @@
+.mainContainer{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  flex:1;
+  background-color: rgb(220, 121, 229);
+}
+
+.jobPostingContent {
+  margin-top:20px;
+  width:50%;
+  padding-bottom: 90px;
+}
+.jobOverviewSection {
+  margin-Bottom: 50px;
+  background-color: white;
+  border-radius: 35px;
+  /* min-height: SCREEN_WIDTH, */
+  padding: 20px;
+  /* ...theme.color.shadow, */
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.logoAndTextSection {
+  border-bottom-color: white;
+  display: flex;
+  flex-direction: column;
+  border-bottom-Width: 1;
+  justify-content: center;
+  align-items: center;
+}
+.companyLogo {
+  height: 100px;
+  width: 100px;
+  margin-bottom: 25px;
+}
+.jobTitleContainer {
+  font-size: 30px;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+.jobTitle {
+  font-size: 30px;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
+}
+.requiredSkillsContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-bottom: 10px;
+  justify-content: center;
+  width: 95%;
+  border-bottom:1px solid black
+}
+.fullTimeAndCityContainer {
+  flex-direction: row;
+}
+.onSiteScheduleText {
+  margin-top: 5px;
+}
+.isFullTimeText {
+  margin:0;
+  font-size: 18px;
+}
+.cityText {
+  font-size: 18px;
+}
+.perksText {
+  margin-top: 20px;
+}
+.salaryOrHourlyText {
+  font-size: 18px;
+  margin:0px
+}
+.jobOverviewText {
+  font-size: 26px;
+}
+.responsibility {
+  margin-bottom: 25px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.arrow-container {
+  width: 40px;
+}
+
+.whoWeAreSection{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  background-color:white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+
+  border-radius: 35px;
+  /* padding-top: 40px; */
+  padding-bottom: 40px;
+}
+.skillsSection {
+  display: flex;
+  /* // paddingBottom: 10, */
+}
+.skillsListSection {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.skillContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: 'row';
+}
+.skillText {
+  font-size: 17px;
+  line-height: 26px;
+}
+.bullet-point {
+  width: 5px;
+  height: 5px;
+  background-color: black;
+  margin-right: 8px;
+  margin-left: 8px;
+}
+.header {
+  z-index: 101;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 100%;
+}
+.headerPill  {
+  background-color:white;
+  width: 100%;
+  height: 72px;
+  border-radius: 100px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  z-index: 101;
+  margin-top: 50px;
+  border-width: 1px;
+  margin-bottom: 20px;
+}
+.leftSection {
+  height: 100%;
+  width: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.rightSection {
+  height: 100%;
+  width: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.titleSection {
+  height: 100%;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 6px;
+}
+.titleText {
+  font-size: 20px;
+}
+.keepButton {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  /* ...theme.color.shadow, */
+}
+.keepButtonText {
+  margin-right: 10px;
+  font-size: 20px;
+}
+.doubleTapModalContainer {
+  height: 20px;
+}
