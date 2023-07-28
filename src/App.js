@@ -10,10 +10,16 @@ function App() {
   return (
     <Router>
       <Routes>
-        {currentPath === "/employee" ? (
-          <Route path="/employee" element={<EmployeeCarousel />} />
+        {currentPath === "/keeper-preview/employee" ? (
+          <Route
+            path="/keeper-preview/employee"
+            element={<EmployeeCarousel />}
+          />
         ) : (
-          <Route path="/employer" element={<EmployerCarousel />} />
+          <Route
+            path="/keeper-preview/employer"
+            element={<EmployerCarousel />}
+          />
         )}
       </Routes>
     </Router>
